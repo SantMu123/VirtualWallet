@@ -22,6 +22,7 @@
     z-index: 2;
     top: 0;
     /* background: red; */
+    background: var(--color-ternario);
 }
 
 .header__logo {
@@ -175,7 +176,7 @@
     grid-area: cards;
 }
 .main__cards{
-    background: green;
+    /* background: green; */
     grid-area: colection;
     display: flex;
     gap: 10px;
@@ -199,10 +200,18 @@
 }
 .cards__item small{
     position: absolute;
-    top: 15px;
-    right: 5vw;
+    top: 30px;
+    right: 4vw;
+    color: var(--color-ternario);
+    font-family: "SF-Pro-Text-Semibold";
 }
 
+.cards__item img{
+    position: absolute;
+    width: 35%;
+    left: 2vw;
+    bottom: 20px;
+}
 
 .footer {
     width: 100%;
@@ -211,6 +220,11 @@
     bottom: 0;
     z-index: 10;
 }
+.cards__item h2{
+    color: var(--color-ternario);
+    font-family: "SF-Pro-Text-Bold";
+}
+
 
 .footer ul {
     display: flex;

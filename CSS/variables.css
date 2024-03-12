@@ -49,7 +49,7 @@
 :root{
     --color-primario: #33404f;
     --color-secundario: #00DDA3;
-    --color-secundario-transparent:rgb(255,255,239);
+    --color-secundario-transparent:#ccf8ed;
     --color-ternario: #FFFFFF;
-    --color-cuarto: #B5C5C3;
+    --color-cuarto: --color-cuarto: #B5C5C3;
 }

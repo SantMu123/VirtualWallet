@@ -143,7 +143,7 @@
     margin-top: 15px;
 }
 .process{
-    background: var(--color-secundario);
+    background: var(--color-secundario-transparent);
     height: 150px;
     position: absolute;
     bottom:50px;
@@ -154,6 +154,8 @@
     width: 100%;
     /* background: violet; */
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card__image{
     /* background: blue; */
@@ -170,6 +172,7 @@
     align-items: flex-end;
     padding-right: 15px;
     padding-top: 15px;
+    padding-left: 15px;
     flex: 2;
     
 }
@@ -178,8 +181,15 @@
     color: var(--color-primario);
     font-family: "SF-Pro-Text-Light";
 }
+.card__description div p{
+    color: var(--color-cuarto);
+    font-family: "SF-Pro-Text-Light";
+}
 .process__close i{
-
+    border-radius: 100%;
+    padding: 5px;
+    background: var(--color-secundario);
+    color: var(--color-ternario);
 }
 
 /* .process__group{

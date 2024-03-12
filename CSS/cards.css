@@ -35,6 +35,7 @@
 
 .logo__icono {
     /* background: green; */
+    
 }
 
 .logo__icono img {
@@ -43,7 +44,7 @@
 
 .logo__titulo {
     /* background: orange; */
-    color:  var(--color-primario);;
+    color:  var(--color-primario);
     font-family: "SF-Pro-Text-Bold";
     text-transform: uppercase;
 }
@@ -187,8 +188,8 @@
 }
 .cards__item{
     flex:1;
-    min-width: 60%;
-    background: url(storage/img/card.svg);
+    min-width: 200px;
+    background: url("../storage/img/card(1).svg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;

@@ -17,6 +17,7 @@ body{
     width: 100%;
     height: 105vh;
     object-fit: cover;
+    opacity: 0.1;
 }
 .header{
     width: 100%;
@@ -30,8 +31,8 @@ body{
     flex-wrap: nowrap;
     position: sticky;
     top: 0;
-    background: var(--color-primario);
     z-index: 2;
+    background: darkgoldenrod;
 }
 .header__logo{
     /*background: red;*/
@@ -83,7 +84,7 @@ body{
     color: var(--color-ternario);
     display: flex;
     height: 130px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0 0.5em;
 }
@@ -92,6 +93,9 @@ body{
 .balance__two {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    line-height: 2em;
+    margin-bottom: 2em;
 }
 
 .balance__one small,
@@ -205,7 +209,8 @@ progress[value]::-moz-progress-bar {
 }
 
 .activities__transactions{
-    /* background: red; */
+    background: linear-gradient(lightgreen, lightblue);
+    border-radius: 5%;
 }
 
 .transactions__cards{

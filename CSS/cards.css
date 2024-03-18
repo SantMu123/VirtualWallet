@@ -4,7 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "SF-Pro-Text-Regular";
+    /*font-family: "SF-Pro-Text-Regular";*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -23,6 +24,7 @@
     top: 0;
     /* background: red; */
     background: var(--color-ternario);
+    
 }
 
 .header__logo {
@@ -185,11 +187,12 @@
     flex-direction: row;
     height: 320px;
     overflow-x: scroll;
+    border-radius: 15%;
 }
 .cards__item{
     flex:1;
     min-width: 200px;
-    background: url("../storage/img/card(1).svg");
+    background: linear-gradient(rgb(72, 72, 156), rgb(123, 185, 123), rgb(80, 80, 214));
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;

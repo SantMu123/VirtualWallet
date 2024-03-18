@@ -47,9 +47,9 @@
     src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-SemiboldItalic.otf);
 }
 :root{
-    --color-primario: #33404f;
-    --color-secundario: #00DDA3;
+    --color-primario: rgb(48, 139, 91);
+    --color-secundario: greenyellow;
     --color-secundario-transparent:#ccf8ed;
-    --color-ternario: #FFFFFF;
+    --color-ternario: #ffffff;
     --color-cuarto: --color-cuarto: #B5C5C3;
 }
